@@ -2,7 +2,7 @@ package com.mycompany.miniproyectosjava;
 
 import java.util.Scanner;
 public class Conversor_Temperaturas {
-	public static void conversorTemp(String[] args) {
+	public static void conversorTemp() {
 	Scanner scan = new Scanner(System.in);
 	System.out.println("\n\tBienvenido al Conversor de Temperaturas\n");
 	System.out.print("Introduce el valor que quieres convertir: ");
