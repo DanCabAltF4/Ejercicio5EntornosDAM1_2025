@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class Temperature_converter {
 	public static void main(String[] args) {
 	Scanner scan = new Scanner(System.in);
-	System.out.println("\n\tWelcome to Temperature Converter\n");
-	System.out.print("Enter value which you want to convert : ");
+	System.out.println("\n\tBienvenido al Conversor de Temperaturas\n");
+	System.out.print("Introduce el valor que quieres convertir: ");
 	float value = scan.nextFloat();
 	System.out.println("  Enter 1 for Celsius to Fahrenheit converter....");
 	System.out.println("  Enter 2 for Fahrenheit to Celsius converter....");
@@ -11,12 +11,12 @@ public class Temperature_converter {
 	int ans = scan.nextInt();
 	if (ans == 1) {
 		float value1 = (float) ((value*(1.8))+32);
-		System.out.print("Your conversion is here.. "+value1+"°F");
+		System.out.print("Your conversion is here.. "+value1+"ï¿½F");
 		}
 	if (ans == 2) {
 			float value2 = (float) (value-32);
 			float value3 = (float) (value2*(5)/9);
-			System.out.print("Your conversion is here.. "+value3+"°C");
+			System.out.print("Your conversion is here.. "+value3+"ï¿½C");
 		}
 	System.out.println("\n\tThank You!!..");
 	}
